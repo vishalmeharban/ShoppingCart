@@ -1,0 +1,26 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 50px;
+}
+
+.productcard {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 25px;
+  background: rgba(153, 205, 50, 0.507);
+}
+
+.addbtn{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: orange;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
